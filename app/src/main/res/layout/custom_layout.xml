@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgStd"
+            android:layout_width="68dp"
+            android:layout_height="47dp"
+            android:src="@drawable/pic" />
+
+        <LinearLayout
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="student id"
+                android:textColor="#0a21cc"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="student name"
+                android:textColor="#0a21cc"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtCourse"
+            android:layout_width="93dp"
+            android:layout_height="48dp"
+            android:background="#8b8b8e"
+            android:padding="3dp"
+            android:text="course name"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
